@@ -22,6 +22,20 @@
       transform: translateY(-8px);
       box-shadow: 0 20px 40px rgba(245, 158, 11, 0.15);
     }
+    .gallery-item {
+      overflow: hidden;
+      border-radius: 1rem;
+      background: #111;
+    }
+    .gallery-item img {
+      transition: transform 0.5s ease;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .gallery-item:hover img {
+      transform: scale(1.07);
+    }
   </style>
 </head>
 <body class="bg-gray-950 text-gray-100">
@@ -36,6 +50,7 @@
         <a href="#about" class="hover:text-amber-500 transition">About</a>
         <a href="#trading" class="hover:text-amber-500 transition">Trading</a>
         <a href="#fitness" class="hover:text-amber-500 transition">Fitness</a>
+        <a href="#gallery" class="hover:text-amber-500 transition">Gallery</a>
         <a href="#contact" class="hover:text-amber-500 transition">Contact</a>
       </div>
     </div>
@@ -62,20 +77,13 @@
           </a>
         </div>
       </div>
+
+      <!-- Logo on the right (fuskar shafi) -->
       <div class="relative">
-        <div class="bg-gradient-to-br from-amber-500/20 to-red-600/10 rounded-2xl p-1">
-          <div class="bg-gray-900 rounded-2xl p-8 text-center">
-            <div class="w-40 h-40 mx-auto bg-gray-800 rounded-full flex items-center justify-center mb-6 border-4 border-amber-500/30">
-              <i class="fas fa-chart-line text-5xl text-amber-500"></i>
-            </div>
-            <h3 class="text-2xl font-bold">EPHIC TRADER</h3>
-            <p class="text-gray-400 mt-2">Kano State, Nigeria</p>
-            <div class="flex justify-center gap-4 mt-6 text-amber-500">
-              <i class="fas fa-dumbbell text-xl"></i>
-              <i class="fas fa-coins text-xl"></i>
-              <i class="fas fa-chart-candlestick text-xl"></i>
-            </div>
-          </div>
+        <div class="bg-gradient-to-br from-amber-500/20 to-red-600/10 rounded-2xl p-2">
+          <img src="EPHIC%20TRADER%20logo.jpg" 
+               alt="EPHIC TRADER Logo" 
+               class="w-full rounded-2xl shadow-2xl">
         </div>
       </div>
     </div>
@@ -138,7 +146,6 @@
           <h3 class="text-xl font-bold mb-3">Smart Money Concepts</h3>
           <p class="text-gray-400">Market Structure, Liquidity grabs, Order Blocks, Fair Value Gaps and high-probability SMC setups.</p>
         </div>
-
         <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8 card-hover">
           <div class="w-14 h-14 bg-amber-500/10 rounded-xl flex items-center justify-center mb-6">
             <i class="fas fa-chart-line text-2xl text-amber-500"></i>
@@ -146,7 +153,6 @@
           <h3 class="text-xl font-bold mb-3">XAU & Forex</h3>
           <p class="text-gray-400">Specialized analysis and trade setups on Gold (XAUUSD) and major currency pairs using pure price action.</p>
         </div>
-
         <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8 card-hover">
           <div class="w-14 h-14 bg-amber-500/10 rounded-xl flex items-center justify-center mb-6">
             <i class="fas fa-brain text-2xl text-amber-500"></i>
@@ -170,7 +176,7 @@
             Alongside trading, I maintain a strong commitment to bodybuilding and physical fitness. The same principles of consistency, patience, focus and delayed gratification that build a strong physique are exactly what I apply to the charts.
           </p>
           <p class="text-gray-300 leading-relaxed">
-            Discipline in the gym translates directly into discipline in trading. Both require showing up every day, managing risk (injury or capital), and trusting the process.
+            Discipline in the gym translates directly into discipline in trading.
           </p>
         </div>
         <div class="grid grid-cols-2 gap-4">
@@ -195,8 +201,70 @@
     </div>
   </section>
 
+  <!-- ========== GALLERY SECTION (Real Images) ========== -->
+  <section id="gallery" class="py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Gallery</h2>
+      <div class="w-20 h-1 bg-amber-500 mb-12"></div>
+
+      <!-- Chart Analysis -->
+      <h3 class="text-xl font-semibold mb-6 flex items-center gap-3">
+        <i class="fas fa-chart-line text-amber-500"></i> Chart Analysis
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-16">
+        <div class="gallery-item aspect-video">
+          <img src="xau%20b4.jpg" alt="XAU Before">
+        </div>
+        <div class="gallery-item aspect-video">
+          <img src="xau%20after.jpg" alt="XAU After">
+        </div>
+        <div class="gallery-item aspect-video">
+          <img src="btc.jpg" alt="BTC Chart">
+        </div>
+        <div class="gallery-item aspect-video">
+          <img src="btc2.jpg" alt="BTC Chart 2">
+        </div>
+      </div>
+
+      <!-- Bodybuilding -->
+      <h3 class="text-xl font-semibold mb-6 flex items-center gap-3">
+        <i class="fas fa-dumbbell text-amber-500"></i> Gym & Bodybuilding
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <div class="gallery-item aspect-[3/4]">
+          <img src="gym1.jpg" alt="Gym Progress 1">
+        </div>
+        <div class="gallery-item aspect-[3/4]">
+          <img src="gym2.png" alt="Gym Progress 2">
+        </div>
+        <div class="gallery-item aspect-[3/4]">
+          <img src="gym3.png" alt="Gym Progress 3">
+        </div>
+      </div>
+
+      <!-- Personal -->
+      <h3 class="text-xl font-semibold mb-6 flex items-center gap-3">
+        <i class="fas fa-user text-amber-500"></i> Personal & Branding
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="gallery-item aspect-square">
+          <img src="usama.jpg" alt="Usama Sulaiman Abdullahi">
+        </div>
+        <div class="gallery-item aspect-square">
+          <img src="usama1.jpg" alt="Usama">
+        </div>
+        <div class="gallery-item aspect-square">
+          <img src="happy%20Independence.jpg" alt="Happy Independence">
+        </div>
+        <div class="gallery-item aspect-square">
+          <img src="EPHIC%20TRADER.jpg" alt="EPHIC TRADER">
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Contact Section -->
-  <section id="contact" class="py-24">
+  <section id="contact" class="py-24 bg-gray-900/50">
     <div class="max-w-6xl mx-auto px-6">
       <h2 class="text-3xl md:text-4xl font-bold mb-4">Let’s Connect</h2>
       <div class="w-20 h-1 bg-amber-500 mb-12"></div>
