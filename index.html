@@ -1,269 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Search Console Verification Tag -->
-    <meta name="google-site-verification" content="5wu16l8OJLlpjwgVJveTW1Q2HC4xCAPUmyenLEV8zpg" />
-    
-    <!-- Google SEO Optimization -->
-    <meta name="description" content="Official Portfolio of Usama Sulaiman Abdullahi (EPHIC TRADER). Financial Markets Trader specializing in XAU, Crypto, and Forex.">
-    <meta name="keywords" content="EPHIC TRADER, Usama Sulaiman Abdullahi, usamagym25253, Forex Trader Kano, XAU Trader Nigeria, Bodybuilding">
-    <meta name="author" content="Usama Sulaiman Abdullahi">
-    <title>EPHIC TRADER | Official Portfolio</title>
-
-    <!-- Structured Data (JSON-LD) for SEO -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Usama Sulaiman Abdullahi",
-      "additionalName": "EPHIC TRADER",
-      "url": "https://github.io",
-      "birthDate": "2001-09-12",
-      "homeLocation": {
-        "@type": "Place",
-        "name": "Kano State, Nigeria"
-      },
-      "jobTitle": "Financial Markets Trader & Developer",
-      "knowsAbout": ["Forex Trading", "XAU Gold Analysis", "Cryptocurrency", "Bodybuilding"],
-      "sameAs": [
-        "https://x.com",
-        "https://tiktok.com",
-        "https://t.me",
-        "https://facebook.com",
-        "https://github.com",
-        "https://www.linkedin.com/in/usama-sulaiman-abdullahi"
-      ]
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EPHIC TRADER | Usama Sulaiman Abdullahi</title>
+  <meta name="description" content="Official portfolio of Usama Sulaiman Abdullahi (EPHIC TRADER) - Professional SMC Trader, XAU & Forex Specialist and Bodybuilder based in Kano, Nigeria.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .gradient-text {
+      background: linear-gradient(90deg, #f59e0b, #ef4444);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
-    </script>
-
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #0b0f19;
-            color: #e2e8f0;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header {
-            background: linear-gradient(135deg, #111827, #1f2937);
-            padding: 50px 20px;
-            text-align: center;
-            border-bottom: 4px solid #10b981;
-        }
-        .profile-img {
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid #10b981;
-            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
-            margin-bottom: 15px;
-        }
-        header h1 {
-            color: #10b981;
-            margin: 0;
-            font-size: 2.8rem;
-            letter-spacing: 1px;
-        }
-        header p {
-            color: #9ca3af;
-            font-size: 1.2rem;
-            margin-top: 10px;
-        }
-        .container {
-            max-width: 850px;
-            margin: 30px auto;
-            padding: 25px;
-            background-color: #111827;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-        }
-        h2 {
-            color: #10b981;
-            border-bottom: 2px solid #374151;
-            padding-bottom: 8px;
-            margin-top: 0;
-        }
-        .info-table {
-            width: 100%;
-            margin-top: 15px;
-            border-collapse: collapse;
-        }
-        .info-table td {
-            padding: 12px 5px;
-            border-bottom: 1px solid #1f2937;
-        }
-        .info-table td.label {
-            color: #34d399;
-            font-weight: bold;
-            width: 35%;
-        }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 15px;
-            margin-top: 15px;
-        }
-        .gallery img {
-            width: 100%;
-            height: 240px;
-            border-radius: 8px;
-            border: 1px solid #374151;
-            object-fit: cover;
-            background-color: #1f2937;
-            transition: transform 0.3s ease;
-        }
-        .gallery img:hover {
-            transform: scale(1.05);
-            border-color: #10b981;
-        }
-        .grid-links {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 12px;
-            margin-top: 20px;
-        }
-        .grid-links a {
-            display: block;
-            text-align: center;
-            padding: 12px;
-            background-color: #1f2937;
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: 600;
-            border-radius: 8px;
-            border: 1px solid #374151;
-            transition: all 0.3s ease;
-        }
-        .grid-links a:hover {
-            background-color: #10b981;
-            color: #0b0f19;
-            transform: translateY(-2px);
-        }
-        .contact-btn {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 12px 25px;
-            background-color: #10b981;
-            color: #0b0f19;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 30px;
-            transition: background 0.3s;
-        }
-        .contact-btn:hover {
-            background-color: #059669;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #6b7280;
-            font-size: 0.9rem;
-        }
-    </style>
+    .card-hover {
+      transition: all 0.3s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(245, 158, 11, 0.15);
+    }
+  </style>
 </head>
-<body>
+<body class="bg-gray-950 text-gray-100">
 
-    <header>
-        <!-- Babban hoton fuska -->
-        <img src="EPHIC%20TRADER.jpg" alt="Usama Sulaiman Abdullahi (EPHIC TRADER)" class="profile-img">
-        <h1>EPHIC TRADER</h1>
-        <p>Financial Markets Trader & Bodybuilder</p>
-    </header>
-
-    <div class="container">
-        <h2>About Me</h2>
-        <p>Welcome to my official portfolio. I am <strong>Usama Sulaiman Abdullahi</strong>, widely known in the financial space as <strong>EPHIC TRADER</strong>. Based in Kano State, Nigeria, I completed my education from primary to secondary school levels. In 2024, I transitioned into the financial markets, focusing my expertise on trading Gold (XAU), Cryptocurrencies, and Forex pairs.</p>
-        
-        <p>Alongside my financial career, I maintain a strong dedication to fitness and bodybuilding. I apply the same consistency, patience, and focus required in high-level physical training to analyzing and mastering the financial charts.</p>
-        
-        <table class="info-table">
-            <tr>
-                <td class="label">Full Name:</td>
-                <td>Usama Sulaiman Abdullahi</td>
-            </tr>
-            <tr>
-                <td class="label">Date of Birth:</td>
-                <td>September 12, 2001</td>
-            </tr>
-            <tr>
-                <td class="label">Location:</td>
-                <td>Kano State, Nigeria</td>
-            </tr>
-            <tr>
-                <td class="label">Interests:</td>
-                <td>XAU (Gold) Trading & Bodybuilding</td>
-            </tr>
-            <tr>
-                <td class="label">Languages:</td>
-                <td>English, Hausa (Native)</td>
-            </tr>
-        </table>
+  <!-- Navigation -->
+  <nav class="fixed w-full bg-gray-950/90 backdrop-blur-md z-50 border-b border-gray-800">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="text-xl font-bold tracking-tight">
+        <span class="text-amber-500">EPHIC</span> TRADER
+      </div>
+      <div class="hidden md:flex space-x-8 text-sm font-medium">
+        <a href="#about" class="hover:text-amber-500 transition">About</a>
+        <a href="#trading" class="hover:text-amber-500 transition">Trading</a>
+        <a href="#fitness" class="hover:text-amber-500 transition">Fitness</a>
+        <a href="#contact" class="hover:text-amber-500 transition">Contact</a>
+      </div>
     </div>
+  </nav>
 
-    <!-- RUKUNI NA 1: CHART ANALYSIS GALLERY -->
-    <div class="container">
-        <h2>Trading Gallery & Chart Analysis</h2>
-        <p>Technical chart setups and live analysis for XAU and BTC pairs:</p>
-        <div class="gallery">
-            <img src="xau%20b4.jpg" alt="XAU Before Setup">
-            <img src="xau%20after.jpg" alt="XAU After Setup">
-            <img src="btc.jpg" alt="BTC Setup 1">
-            <img src="btc2.jpg" alt="BTC Setup 2">
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center pt-20">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <p class="text-amber-500 font-medium mb-3 tracking-wide">Financial Markets Trader & Bodybuilder</p>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+          Usama Sulaiman<br>
+          <span class="gradient-text">Abdullahi</span>
+        </h1>
+        <p class="text-gray-400 text-lg mb-8 max-w-lg">
+          Widely known as <strong class="text-white">EPHIC TRADER</strong>. Specializing in Smart Money Concepts (SMC), XAU (Gold), Forex & Cryptocurrency trading. Building disciplined traders while pursuing excellence in bodybuilding.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#contact" class="bg-amber-500 hover:bg-amber-600 text-gray-950 px-8 py-3.5 rounded-lg font-semibold transition">
+            Work With Me
+          </a>
+          <a href="https://t.me/ephictraderclub" target="_blank" class="border border-gray-700 hover:border-amber-500 px-8 py-3.5 rounded-lg font-semibold transition">
+            Free Community
+          </a>
         </div>
-    </div>
-
-    <!-- RUKUNI NA 2: GYM BODYBUILDING GALLERY -->
-    <div class="container">
-        <h2>Gym & Bodybuilding Gallery</h2>
-        <p>Physical progression tracking and workout updates:</p>
-        <div class="gallery">
-            <img src="gym1.jpg" alt="Gym Workout 1">
-            <img src="gym2.png" alt="Gym Workout 2">
-            <img src="gym3.png" alt="Gym Workout 3">
+      </div>
+      <div class="relative">
+        <div class="bg-gradient-to-br from-amber-500/20 to-red-600/10 rounded-2xl p-1">
+          <div class="bg-gray-900 rounded-2xl p-8 text-center">
+            <div class="w-40 h-40 mx-auto bg-gray-800 rounded-full flex items-center justify-center mb-6 border-4 border-amber-500/30">
+              <i class="fas fa-chart-line text-5xl text-amber-500"></i>
+            </div>
+            <h3 class="text-2xl font-bold">EPHIC TRADER</h3>
+            <p class="text-gray-400 mt-2">Kano State, Nigeria</p>
+            <div class="flex justify-center gap-4 mt-6 text-amber-500">
+              <i class="fas fa-dumbbell text-xl"></i>
+              <i class="fas fa-coins text-xl"></i>
+              <i class="fas fa-chart-candlestick text-xl"></i>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </section>
 
-    <!-- RUKUNI NA 3: PERSONAL PHOTOS GALLERY -->
-    <div class="container">
-        <h2>Personal Gallery & Branding</h2>
-        <p>Discipline, branding, and lifestyle updates:</p>
-        <div class="gallery">
-            <img src="usama.jpg" alt="Personal Photo 1">
-            <img src="usama1.jpg" alt="Personal Photo 2">
-            <img src="happy%20Independence.jpg" alt="Happy Independence Day">
-            <img src="EPHIC%20TRADER%20logo.jpg" alt="Ephic Trader Logo">
+  <!-- About Section -->
+  <section id="about" class="py-24 bg-gray-900/50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
+      <div class="w-20 h-1 bg-amber-500 mb-12"></div>
+      
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <p class="text-gray-300 leading-relaxed mb-6">
+            I am <strong>Usama Sulaiman Abdullahi</strong>, professionally known as <strong>EPHIC TRADER</strong>. Based in Kano State, Nigeria. I completed my education from primary to secondary school and transitioned into the financial markets in 2024.
+          </p>
+          <p class="text-gray-300 leading-relaxed">
+            I focus on high-probability trading using Smart Money Concepts (SMC), Price Action, Market Structure, Liquidity and Order Blocks — primarily on Gold (XAUUSD), major Forex pairs and Cryptocurrencies.
+          </p>
         </div>
-    </div>
-
-    <div class="container">
-        <h2>Connect With Me</h2>
-        <p>Follow my analysis, fitness updates, and setups across my official channels under the unified handle <strong>@usamagym25253</strong>:</p>
-        <div class="grid-links">
-            <a href="https://x.com" target="_blank">X (Twitter)</a>
-            <a href="https://tiktok.com" target="_blank">TikTok</a>
-            <a href="https://t.me" target="_blank">Telegram</a>
-            <a href="https://facebook.com" target="_blank">Facebook</a>
-            <a href="https://discord.gg" target="_blank">Discord</a>
-            <a href="https://github.com" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/usama-sulaiman-abdullahi" target="_blank">LinkedIn</a>
+        <div class="bg-gray-800/50 rounded-2xl p-8">
+          <div class="space-y-5">
+            <div class="flex justify-between border-b border-gray-700 pb-3">
+              <span class="text-gray-400">Full Name</span>
+              <span class="font-medium">Usama Sulaiman Abdullahi</span>
+            </div>
+            <div class="flex justify-between border-b border-gray-700 pb-3">
+              <span class="text-gray-400">Date of Birth</span>
+              <span class="font-medium">September 12, 2001</span>
+            </div>
+            <div class="flex justify-between border-b border-gray-700 pb-3">
+              <span class="text-gray-400">Location</span>
+              <span class="font-medium">Kano State, Nigeria</span>
+            </div>
+            <div class="flex justify-between border-b border-gray-700 pb-3">
+              <span class="text-gray-400">Languages</span>
+              <span class="font-medium">English, Hausa (Native)</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-400">Focus</span>
+              <span class="font-medium text-amber-500">XAU • Forex • Crypto</span>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </section>
 
-    <div class="container" style="text-align: center;">
-        <h2>Direct Business Inquiries</h2>
-        <p>For mentorship, collaborations, or trading inquiries, reach out directly:</p>
-        <p><strong>Email:</strong> usamagym4@gmail.com</p>
-        <p><strong>Phone:</strong> +234 916 105 4955</p>
-        <a href="https://wa.me/2349161054955" class="contact-btn" target="_blank">Chat on WhatsApp</a>
+  <!-- Trading Section -->
+  <section id="trading" class="py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Trading Expertise</h2>
+      <div class="w-20 h-1 bg-amber-500 mb-12"></div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8 card-hover">
+          <div class="w-14 h-14 bg-amber-500/10 rounded-xl flex items-center justify-center mb-6">
+            <i class="fas fa-project-diagram text-2xl text-amber-500"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3">Smart Money Concepts</h3>
+          <p class="text-gray-400">Market Structure, Liquidity grabs, Order Blocks, Fair Value Gaps and high-probability SMC setups.</p>
+        </div>
+
+        <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8 card-hover">
+          <div class="w-14 h-14 bg-amber-500/10 rounded-xl flex items-center justify-center mb-6">
+            <i class="fas fa-chart-line text-2xl text-amber-500"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3">XAU & Forex</h3>
+          <p class="text-gray-400">Specialized analysis and trade setups on Gold (XAUUSD) and major currency pairs using pure price action.</p>
+        </div>
+
+        <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8 card-hover">
+          <div class="w-14 h-14 bg-amber-500/10 rounded-xl flex items-center justify-center mb-6">
+            <i class="fas fa-brain text-2xl text-amber-500"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-3">Trading Psychology</h3>
+          <p class="text-gray-400">Building disciplined traders through risk management, patience and consistent execution.</p>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <footer>
-        &copy; 2026 EPHIC TRADER. All Rights Reserved.
-    </footer>
+  <!-- Fitness Section -->
+  <section id="fitness" class="py-24 bg-gray-900/50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Bodybuilding & Discipline</h2>
+      <div class="w-20 h-1 bg-amber-500 mb-12"></div>
+
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-gray-300 leading-relaxed mb-6">
+            Alongside trading, I maintain a strong commitment to bodybuilding and physical fitness. The same principles of consistency, patience, focus and delayed gratification that build a strong physique are exactly what I apply to the charts.
+          </p>
+          <p class="text-gray-300 leading-relaxed">
+            Discipline in the gym translates directly into discipline in trading. Both require showing up every day, managing risk (injury or capital), and trusting the process.
+          </p>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-gray-800 rounded-2xl p-6 text-center">
+            <i class="fas fa-dumbbell text-3xl text-amber-500 mb-3"></i>
+            <p class="font-semibold">Strength Training</p>
+          </div>
+          <div class="bg-gray-800 rounded-2xl p-6 text-center">
+            <i class="fas fa-fire text-3xl text-amber-500 mb-3"></i>
+            <p class="font-semibold">Consistency</p>
+          </div>
+          <div class="bg-gray-800 rounded-2xl p-6 text-center">
+            <i class="fas fa-heart-pulse text-3xl text-amber-500 mb-3"></i>
+            <p class="font-semibold">Recovery</p>
+          </div>
+          <div class="bg-gray-800 rounded-2xl p-6 text-center">
+            <i class="fas fa-trophy text-3xl text-amber-500 mb-3"></i>
+            <p class="font-semibold">Progression</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Let’s Connect</h2>
+      <div class="w-20 h-1 bg-amber-500 mb-12"></div>
+
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <p class="text-gray-300 mb-8">
+            For mentorship, collaborations, trading inquiries or business opportunities, feel free to reach out.
+          </p>
+          <div class="space-y-5">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 bg-amber-500/10 rounded-lg flex items-center justify-center">
+                <i class="fas fa-envelope text-amber-500"></i>
+              </div>
+              <div>
+                <p class="text-sm text-gray-400">Email</p>
+                <a href="mailto:usamagym4@gmail.com" class="font-medium hover:text-amber-500">usamagym4@gmail.com</a>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 bg-amber-500/10 rounded-lg flex items-center justify-center">
+                <i class="fas fa-phone text-amber-500"></i>
+              </div>
+              <div>
+                <p class="text-sm text-gray-400">Phone / WhatsApp</p>
+                <a href="https://wa.me/2349161054955" class="font-medium hover:text-amber-500">+234 916 105 4955</a>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 bg-amber-500/10 rounded-lg flex items-center justify-center">
+                <i class="fab fa-telegram text-amber-500"></i>
+              </div>
+              <div>
+                <p class="text-sm text-gray-400">Telegram Community</p>
+                <a href="https://t.me/ephictraderclub" target="_blank" class="font-medium hover:text-amber-500">t.me/ephictraderclub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8">
+          <h3 class="text-xl font-bold mb-6">Official Handles</h3>
+          <p class="text-gray-400 mb-6">All platforms under one unified handle:</p>
+          <div class="text-2xl font-bold text-amber-500 mb-8">@usamagym25253</div>
+          <a href="https://wa.me/2349161054955" target="_blank" class="block w-full bg-green-600 hover:bg-green-700 text-center py-4 rounded-xl font-semibold transition">
+            <i class="fab fa-whatsapp mr-2"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-800 py-10">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="text-lg font-bold">
+        <span class="text-amber-500">EPHIC</span> TRADER
+      </div>
+      <p class="text-gray-500 text-sm">
+        © 2026 Usama Sulaiman Abdullahi. All rights reserved.
+      </p>
+    </div>
+  </footer>
 
 </body>
 </html>
