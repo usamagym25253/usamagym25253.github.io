@@ -23,6 +23,15 @@
             text-align: center;
             border-bottom: 4px solid #10b981;
         }
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #10b981;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+            margin-bottom: 15px;
+        }
         header h1 {
             color: #10b981;
             margin: 0;
@@ -61,6 +70,22 @@
             color: #34d399;
             font-weight: bold;
             width: 35%;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid #374151;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            border-color: #10b981;
         }
         .grid-links {
             display: grid;
@@ -110,6 +135,8 @@
 <body>
 
     <header>
+        <!-- Wannan layin zai dauko hoton fuskarka da ka loda -->
+        <img src="IMG_20260910_211520_117.jpg" alt="Usama Sulaiman Abdullahi" class="profile-img">
         <h1>EPHIC TRADER</h1>
         <p>Financial Markets Trader & Developer</p>
     </header>
@@ -146,6 +173,17 @@
         </table>
     </div>
 
+    <!-- Wannan sashin zai nuna hotunan Trading dinka -->
+    <div class="container">
+        <h2>Trading Gallery & Analysis</h2>
+        <p>Here are some of my market breakdowns and recent trade setups:</p>
+        <div class="gallery">
+            <img src="image.jpg" alt="Market Setup 1">
+            <img src="image_jpg_new.jpg" alt="Market Setup 2">
+            <img src="image (11).jpg" alt="Market Setup 3">
+        </div>
+    </div>
+
     <div class="container">
         <h2>Connect With Me</h2>
         <p>Follow my analysis, market breakdowns, and setups across my official channels under the unified handle <strong>@usamagym25253</strong>:</p>
@@ -165,7 +203,7 @@
         <p>For mentorship, collaborations, or trading inquiries, reach out directly:</p>
         <p><strong>Email:</strong> usamagym4@gmail.com</p>
         <p><strong>Phone:</strong> +234 916 105 4955</p>
-        <a href="https://wa.me" class="contact-btn" target="_blank">Chat on WhatsApp</a>
+        <a href="https://wa.me." class="contact-btn" target="_blank">Chat on WhatsApp</a>
     </div>
 
     <footer>
@@ -174,4 +212,3 @@
 
 </body>
 </html>
-
