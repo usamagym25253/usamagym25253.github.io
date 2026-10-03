@@ -3,212 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google SEO Optimization -->
     <meta name="description" content="Official Portfolio of Usama Sulaiman Abdullahi (EPHIC TRADER). Financial Markets Trader specializing in XAU, Crypto, and Forex.">
-    <meta name="keywords" content="EPHIC TRADER, Usama Sulaiman Abdullahi, usamagym25253, Forex Trader Kano, XAU Trader Nigeria">
-    <meta name="author" content="Usama Sulaiman Abdullahi">
     <title>EPHIC TRADER | Official Portfolio</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #0b0f19;
-            color: #e2e8f0;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header {
-            background: linear-gradient(135deg, #111827, #1f2937);
-            padding: 50px 20px;
-            text-align: center;
-            border-bottom: 4px solid #10b981;
-        }
-        .profile-img {
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid #10b981;
-            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
-            margin-bottom: 15px;
-        }
-        header h1 {
-            color: #10b981;
-            margin: 0;
-            font-size: 2.8rem;
-            letter-spacing: 1px;
-        }
-        header p {
-            color: #9ca3af;
-            font-size: 1.2rem;
-            margin-top: 10px;
-        }
-        .container {
-            max-width: 750px;
-            margin: 30px auto;
-            padding: 25px;
-            background-color: #111827;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-        }
-        h2 {
-            color: #10b981;
-            border-bottom: 2px solid #374151;
-            padding-bottom: 8px;
-            margin-top: 0;
-        }
-        .info-table {
-            width: 100%;
-            margin-top: 15px;
-            border-collapse: collapse;
-        }
-        .info-table td {
-            padding: 12px 5px;
-            border-bottom: 1px solid #1f2937;
-        }
-        .info-table td.label {
-            color: #34d399;
-            font-weight: bold;
-            width: 35%;
-        }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-top: 15px;
-        }
-        .gallery img {
-            width: 100%;
-            border-radius: 8px;
-            border: 1px solid #374151;
-            transition: transform 0.3s ease;
-        }
-        .gallery img:hover {
-            transform: scale(1.05);
-            border-color: #10b981;
-        }
-        .grid-links {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 12px;
-            margin-top: 20px;
-        }
-        .grid-links a {
-            display: block;
-            text-align: center;
-            padding: 12px;
-            background-color: #1f2937;
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: 600;
-            border-radius: 8px;
-            border: 1px solid #374151;
-            transition: all 0.3s ease;
-        }
-        .grid-links a:hover {
-            background-color: #10b981;
-            color: #0b0f19;
-            transform: translateY(-2px);
-        }
-        .contact-btn {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 12px 25px;
-            background-color: #10b981;
-            color: #0b0f19;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 30px;
-            transition: background 0.3s;
-        }
-        .contact-btn:hover {
-            background-color: #059669;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #6b7280;
-            font-size: 0.9rem;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0b0f19; color: #e2e8f0; margin: 0; padding: 0; line-height: 1.6; }
+        header { background: linear-gradient(135deg, #111827, #1f2937); padding: 50px 20px; text-align: center; border-bottom: 4px solid #10b981; }
+        .profile-img { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 4px solid #10b981; box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4); margin-bottom: 15px; }
+        header h1 { color: #10b981; margin: 0; font-size: 2.8rem; }
+        header p { color: #9ca3af; font-size: 1.2rem; margin-top: 10px; }
+        .container { max-width: 850px; margin: 30px auto; padding: 25px; background-color: #111827; border-radius: 12px; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); }
+        h2 { color: #10b981; border-bottom: 2px solid #374151; padding-bottom: 8px; margin-top: 0; }
+        .info-table { width: 100%; margin-top: 15px; border-collapse: collapse; }
+        .info-table td { padding: 12px 5px; border-bottom: 1px solid #1f2937; }
+        .info-table td.label { color: #34d399; font-weight: bold; width: 35%; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 15px; margin-top: 15px; }
+        .gallery img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 1px solid #374151; transition: transform 0.3s ease; }
+        .gallery img:hover { transform: scale(1.03); border-color: #10b981; }
+        .grid-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-top: 20px; }
+        .grid-links a { display: block; text-align: center; padding: 12px; background-color: #1f2937; color: #ffffff; text-decoration: none; font-weight: 600; border-radius: 8px; border: 1px solid #374151; transition: all 0.3s ease; }
+        .grid-links a:hover { background-color: #10b981; color: #0b0f19; }
+        .contact-btn { display: inline-block; margin-top: 15px; padding: 12px 25px; background-color: #10b981; color: #0b0f19; text-decoration: none; font-weight: bold; border-radius: 30px; }
+        footer { text-align: center; padding: 20px; color: #6b7280; font-size: 0.9rem; }
     </style>
 </head>
 <body>
-
     <header>
-        <!-- Wannan layin zai dauko hoton fuskarka da ka loda -->
         <img src="IMG_20260910_211520_117.jpg" alt="Usama Sulaiman Abdullahi" class="profile-img">
         <h1>EPHIC TRADER</h1>
         <p>Financial Markets Trader & Developer</p>
     </header>
-
     <div class="container">
         <h2>About Me</h2>
-        <p>Welcome to my official portfolio. I am <strong>Usama Sulaiman Abdullahi</strong>, widely known in the financial space as <strong>EPHIC TRADER</strong>. Based in Kano State, Nigeria, I completed my education from primary to secondary school levels. In 2024, I transitioned into the financial markets, focusing my expertise on trading Gold (XAU), Cryptocurrencies, and Forex pairs.</p>
-        
+        <p>Welcome to my official portfolio. I am <strong>Usama Sulaiman Abdullahi</strong> (EPHIC TRADER) based in Kano State, Nigeria, specializing in XAU, Crypto, and Forex.</p>
         <table class="info-table">
-            <tr>
-                <td class="label">Full Name:</td>
-                <td>Usama Sulaiman Abdullahi</td>
-            </tr>
-            <tr>
-                <td class="label">Date of Birth:</td>
-                <td>September 12, 2001</td>
-            </tr>
-            <tr>
-                <td class="label">Location:</td>
-                <td>Kano State, Nigeria</td>
-            </tr>
-            <tr>
-                <td class="label">Trading Since:</td>
-                <td>2024</td>
-            </tr>
-            <tr>
-                <td class="label">Specialties:</td>
-                <td>XAU (Gold), Crypto, Forex</td>
-            </tr>
-            <tr>
-                <td class="label">Languages:</td>
-                <td>English, Hausa (Native)</td>
-            </tr>
+            <tr><td class="label">Full Name:</td><td>Usama Sulaiman Abdullahi</td></tr>
+            <tr><td class="label">Location:</td><td>Kano State, Nigeria</td></tr>
+            <tr><td class="label">Specialties:</td><td>XAU (Gold), Crypto, Forex</td></tr>
         </table>
     </div>
-
-    <!-- Wannan sashin zai nuna hotunan Trading dinka -->
     <div class="container">
-        <h2>Trading Gallery & Analysis</h2>
-        <p>Here are some of my market breakdowns and recent trade setups:</p>
+        <h2>Trading Gallery & Market Setups</h2>
         <div class="gallery">
-            <img src="image.jpg" alt="Market Setup 1">
-            <img src="image_jpg_new.jpg" alt="Market Setup 2">
-            <img src="image (11).jpg" alt="Market Setup 3">
+            <img src="image.jpg" alt="Trading Setup">
+            <img src="image (13).jpg" alt="Trading Setup">
+            <img src="image (4).jpg" alt="Trading Setup">
+            <img src="IMG_20261002_145348_144.jpg" alt="Trading View Analysis">
+            <img src="IMG_20261002_145348_482.jpg" alt="Trading View Analysis">
         </div>
     </div>
-
     <div class="container">
         <h2>Connect With Me</h2>
-        <p>Follow my analysis, market breakdowns, and setups across my official channels under the unified handle <strong>@usamagym25253</strong>:</p>
-        
         <div class="grid-links">
             <a href="https://x.com" target="_blank">X (Twitter)</a>
-            <a href="https://tiktok.com" target="_blank">TikTok</a>
             <a href="https://t.me" target="_blank">Telegram</a>
-            <a href="https://facebook.com" target="_blank">Facebook</a>
-            <a href="https://discord.com" target="_blank">Discord</a>
             <a href="https://github.com" target="_blank">GitHub</a>
         </div>
     </div>
-
-    <div class="container" style="text-align: center;">
-        <h2>Direct Business Inquiries</h2>
-        <p>For mentorship, collaborations, or trading inquiries, reach out directly:</p>
-        <p><strong>Email:</strong> usamagym4@gmail.com</p>
-        <p><strong>Phone:</strong> +234 916 105 4955</p>
-        <a href="https://wa.me." class="contact-btn" target="_blank">Chat on WhatsApp</a>
-    </div>
-
-    <footer>
-        &copy; 2026 EPHIC TRADER. All Rights Reserved.
-    </footer>
-
+    <footer>&copy; 2026 EPHIC TRADER. All Rights Reserved.</footer>
 </body>
 </html>
